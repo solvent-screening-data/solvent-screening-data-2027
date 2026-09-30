@@ -29,12 +29,10 @@ solvent-screening-data-2027/
 │       ├── dataset.csv
 │       └── features_dataset.csv
 ├── src/
-│   ├── train_solubility1.py
-│   ├── train_solubility2.py
-│   └── train_flammability.py
-└── models/
-    ├── lightgbm_solubility.pkl
-    └── svm_flammability.pkl
+   ├── train_solubility1.py
+   ├── train_solubility2.py
+   └── train_flammability.py
+
 ```
 
 ## Environment
