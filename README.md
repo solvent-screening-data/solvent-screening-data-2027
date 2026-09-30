@@ -79,10 +79,3 @@ solvent-screening-data-2027/
 | `src/train_solubility1.py` | Preliminary evaluation of solubility prediction models: trains the LightGBM model with TPE-based hyperparameter optimization and evaluates it on the random train/test split |
 | `src/train_solubility2.py` | Generalization evaluation of solubility prediction models: retrains the model on the re-partitioned dataset and evaluates it on the four external test sets |
 | `src/train_flammability.py` | Trains the SVM classifier, performs feature selection and hyperparameter optimization, and generates the SHAP analysis |
-
-### Models
-
-| File | Description |
-|---|---|
-| `models/lightgbm_solubility.pkl` | Trained LightGBM solubility model |
-| `models/svm_flammability.pkl` | Trained SVM flammability classifier |
