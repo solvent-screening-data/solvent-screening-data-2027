@@ -8,6 +8,7 @@ The code reproduces the feature engineering, model training, hyperparameter opti
 
 ## Repository structure
 
+```
 solvent-screening-data-2027/
 ├── README.md
 ├── data/
@@ -17,7 +18,7 @@ solvent-screening-data-2027/
 │   │   ├── test_type1.csv
 │   │   ├── test_type2.csv
 │   │   ├── test_type3.csv
-│   │   └── test_type4.csv
+│   │   ├── test_type4.csv
 │   │   ├── features_total.csv
 │   │   ├── features_train.csv
 │   │   ├── features_test_type1.csv
@@ -25,16 +26,16 @@ solvent-screening-data-2027/
 │   │   ├── features_test_type3.csv
 │   │   └── features_test_type4.csv
 │   └── flammability/
-│       └── dataset.csv
-        └── features_dataset.csv
+│       ├── dataset.csv
+│       └── features_dataset.csv
 ├── src/
 │   ├── train_solubility1.py
 │   ├── train_solubility2.py
-│   ├── train_flammability.py
+│   └── train_flammability.py
 └── models/
     ├── lightgbm_solubility.pkl
     └── svm_flammability.pkl
-
+```
 
 ## Environment
 
